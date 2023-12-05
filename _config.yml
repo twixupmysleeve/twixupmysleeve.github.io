@@ -1,6 +1,6 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
+title: Pratham Mehta
+tagline: Research Assistant at Georgia Tech
+url: http://twixupmysleeve.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Pratham Mehta
+  url: http://twixupmysleeve.github.io
+  email: pratham.mehta001@gmail.com
 
 markdown: kramdown
 highlighter: rouge

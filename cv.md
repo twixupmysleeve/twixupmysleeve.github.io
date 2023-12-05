@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Pratham Mehta</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Undergraduate Student and Researcher (<span class="cv-vis">AR</span> + <span class="cv-ai">ML</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,13 +30,7 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
-</div>
-
-<div class="cv-spacer"></div>
-
-<div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+My interests encompass the fields of <b><span class="cv-vis">augmented reality and human-computer interaction</span></b> and <b><span class="cv-ai">machine learning</span></b>.
 </div>
 
 <div class="cv-spacer"></div>
@@ -68,7 +62,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endfor %}
 {:/}
 
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -76,10 +70,18 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endif %}
 {% endfor %}
 
-## Academic Research Experience
+## Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Leadership Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'leadership' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
@@ -92,20 +94,20 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 ## Publications
 
-### Selected: Latest & Greatest
+<!-- ### Selected: Latest & Greatest
 
 {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### All Publications -->
 
-{% assign selectedBoolForBibtex = false %}
+<!-- {% assign selectedBoolForBibtex = false %} -->
 
-### Journal
+<!-- ### Journal
 
 {% assign journal = site.categories.papers | where: 'type', "journal" %}
 {% for pub in journal %}
@@ -131,7 +133,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% assign workshop = site.categories.papers | where: 'type', "workshop" %}
 {% for pub in workshop %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 ### Poster
 
@@ -140,7 +142,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-### Demo
+<!-- ### Demo
 
 {% assign demo = site.categories.papers | where: 'type', "demo" %}
 {% for pub in demo %}
@@ -165,7 +167,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
-{% endfor %}
+{% endfor %} -->
 
 ## Teaching
 
@@ -173,7 +175,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
-## Mentoring
+<!-- ## Mentoring
 
 {::nomarkdown}
 {% for mentee in site.data.mentoring %}
@@ -193,7 +195,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% unless article.feature-only %}
 {% include cv/article.html article=article %}
 {% endunless %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Technology Skills
 
@@ -201,7 +203,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/skill.html skill=skill %}
 {% endfor %} -->
 
-## Service
+<!-- ## Service
 
 <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
@@ -232,7 +234,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% for design in site.data.designs %}
 {% include cv/design.html design=design %}
-{% endfor %}
+{% endfor %} -->
 
 ## References
 
