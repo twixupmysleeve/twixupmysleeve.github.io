@@ -1,6 +1,6 @@
 title: Fred Hohman
 tagline: Research Scientist at Apple
-url: http://fredhohman.com
+url: http://twixupmysleeve.github.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: Fred Hohman
-  url: http://fredhohman.com
+  url: http://twixupmysleeve.github.com
   email: fred.hohman@gmail.com
 
 markdown: kramdown
