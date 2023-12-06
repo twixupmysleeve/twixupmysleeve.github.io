@@ -1,6 +1,6 @@
 title: Pratham Mehta
 tagline: Research Assistant at Georgia Tech
-url: http://twixupmysleeve.github.io
+url: https://twixupmysleeve.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: Pratham Mehta
-  url: http://twixupmysleeve.github.io
+  url: https://twixupmysleeve.github.io
   email: pratham.mehta001@gmail.com
 
 markdown: kramdown
