@@ -46,3 +46,35 @@
   institution-url: http://gatech.edu
   group-url: https://poloclub.github.io/
   type: academic
+
+- institution: India Club at Georgia Tech
+  location: "Atlanta, GA"
+  position: President
+  year: "May 2023 —"
+  year-extra: "Present"
+  description: "Leading the largest student organization with over 1200 members to plan and organize cultural events."
+  institution-url: https://www.gatechindiaclub.com/
+  type: leadership
+
+- institution: Data Science at Georgia Tech
+  location: "Atlanta, GA"
+  position: Vice President
+  year: "May 2022 —"
+  year-extra: "May 2023"
+  mentors:
+    - Jacob Abernethy
+  description: "Oversaw daily operations of the largest data science organization."
+  institution-url: https://datasciencegt.org/
+  type: leadership
+
+- institution: "Hacklytics 2023: A Starry Night"
+  location: "Atlanta, GA"
+  position: Director
+  year: "May 2022 —"
+  year-extra: "May 2023"
+  mentors:
+    - Srinivas Aluru
+    - Jacob Abernethy
+  description: "Raised $40,000+ and coordinated with sponsors to organize GT’s largest datathon, with 500+ attendees in person"
+  institution-url: https://datasciencegt.org/
+  type: leadership

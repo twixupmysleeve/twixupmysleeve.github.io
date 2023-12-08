@@ -1,35 +1,46 @@
 - institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
+  position: Teaching Assistant
   location: "Atlanta, GA"
-  year: Spring 2019
-  class: "Information Visualization (CS 4460)"
-  instructor: Alex Endert
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Information Visualization (CS 4460), an undergraduate course with 134 students enrolled."
+  year: Fall 2022 - Present
+  class: "Data Structures and Algorithms (CS 1332)"
+  instructor: Mary Hudachek-Buswell 
+  description: "Conducted review sessions, graded assignments, and helped students debug code for the introductory data structures course, an undergraduate course with over 1300 students enrolled."
   institution-url: http://gatech.edu
-  class-url: http://va.gatech.edu/courses/cs4460/
+  class-url: https://gt-student-wiki.org/mediawiki/index.php/CS_1332 
   ta: true
 
 - institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
+  position: Teaching Assistant
   location: "Atlanta, GA"
-  year: Spring 2017
-  class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
-  instructor: Duen Horng (Polo) Chau
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Data and Visual Analytics (CSE 6242 / CX 4242), a graduate course with 214 students enrolled."
+  year: Spring 2022
+  class: "Object Oriented Programming in Java (CS 1331)"
+  instructor: Richard Landry
+  description: "Designed homeworks, conducted review sessions, and graded assignments for the introductory Java course, an undergraduate course with over 1000 students enrolled."
   institution-url: http://gatech.edu
-  class-url: http://poloclub.gatech.edu/cse6242/2017spring
+  class-url: https://gt-student-wiki.org/mediawiki/index.php/CS_1331
   ta: true
 
-- institution: University of Georgia
-  position: Student Notetaker
-  location: "Athens, GA"
-  year: "2014 — 2015"
-  description: "Generated notes for undergraduate mathematics and physics courses for students with disabilities."
-  ta: false
+# - institution: Georgia Institute of Technology
+#   position: Graduate Teaching Assistant
+#   location: "Atlanta, GA"
+#   year: Spring 2017
+#   class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
+#   instructor: Duen Horng (Polo) Chau
+#   description: "Designed homeworks, held weekly office hours, and mentored student team projects for Data and Visual Analytics (CSE 6242 / CX 4242), a graduate course with 214 students enrolled."
+#   institution-url: http://gatech.edu
+#   class-url: http://poloclub.gatech.edu/cse6242/2017spring
+#   ta: true
 
-- institution: University of Georgia
-  position: Tutor
-  location: "Athens, GA"
-  year: "2012"
-  description: "Specialized in tutoring calculus to undergraduates."
-  ta: false
+# - institution: University of Georgia
+#   position: Student Notetaker
+#   location: "Athens, GA"
+#   year: "2014 — 2015"
+#   description: "Generated notes for undergraduate mathematics and physics courses for students with disabilities."
+#   ta: false
+
+# - institution: University of Georgia
+#   position: Tutor
+#   location: "Athens, GA"
+#   year: "2012"
+#   description: "Specialized in tutoring calculus to undergraduates."
+#   ta: false
