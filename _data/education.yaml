@@ -5,7 +5,7 @@
   years-extra: "May 2025"
   institution-url: https://www.gatech.edu/
   description:
-    - "Concentration on Interactive Intelligence"
+    - "Concentration in Interactive Intelligence"
 
 - degree: "B.S. in Computer Science"
   years: "Aug. 2021 —"
@@ -13,7 +13,7 @@
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   advisor: Duen Horng (Polo) Chau
-  thesis: "[IN PROGRESS] Towards Multi-User Augmented Reality for Interactive Surgical Training"
+  # thesis: "Towards Multi-User Augmented Reality for Interactive Surgical Training"
   # thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/ # TODO: update
   # thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf # TODO: update
   description: 
