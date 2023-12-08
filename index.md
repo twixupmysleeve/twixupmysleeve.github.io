@@ -8,7 +8,7 @@ title: Home
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/portrait.png"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Pratham Mehta</h1>
+			<h1 id="intro-title">Hi! I'm Pratham.</h1>
 			<div id="intro-subtitle">I'm a student at Georgia Tech</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
