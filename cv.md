@@ -8,7 +8,7 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Pratham Mehta</a></h1>
 
-<p id="cv-subtitle"><i>Undergraduate Student and Researcher (<span class="cv-vis">AR</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Undergraduate Student and Researcher (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,7 +30,7 @@ jsarr:
 </div> -->
 
 <div>
-My interests encompass the fields of <b><span class="cv-vis">augmented reality and human-computer interaction</span></b> and <b><span class="cv-ai">machine learning</span></b>.
+My interests encompass the fields of <b><span class="cv-vis">human-computer interaction</span></b> and <b><span class="cv-ai">machine learning</span></b>.
 </div>
 
 <div class="cv-spacer"></div>

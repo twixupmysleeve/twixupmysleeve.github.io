@@ -32,6 +32,25 @@ title: Home
 	</div>
 </div>
 
+<hr class="l-middle home-hr">
+
+<h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
+
+<p class="feature-text">
+	Latest research for fans of human-computer interaction, data visualization, and machine learning.
+</p>
+
+<div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% for feature in sortedPublications %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<br>
+
 [gt]: http://www.gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
