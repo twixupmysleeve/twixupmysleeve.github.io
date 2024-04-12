@@ -1,5 +1,9 @@
+- name: "CoC Outstanding Legacy Leadership Award"
+  description: Stipend awarded to a final-year undergraduate student who has demonstrated exceptional leadership qualities and community involvement on campus.
+  year: 2024
+
 - name: "CoC Outstanding Second Year Leadership Award"
-  description: Stipend awarded to 1 second-year undergraduate that demonstrates exceptional leadership qualities and is actively involved on campus.
+  description: Stipend awarded to a second-year undergraduate that demonstrates exceptional leadership qualities and is actively involved on campus.
   year: 2023
 
 - name: Faculty Honors
