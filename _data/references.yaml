@@ -1,4 +1,4 @@
-- name: Polo Chau
+- name: Duen Horng "Polo" Chau
   position: Associate Professor
   group: School of Computational Science and Engineering
   institution: Georgia Institute of Technology
@@ -23,3 +23,12 @@
   location: Palo Alto, CA, USA
   website: "LinkedIn"
   url: "https://www.linkedin.com/in/simonpouliot/"
+
+- name: Umakishore Ramachandran
+  position: Professor
+  group: School of Computer Science
+  institution: Georgia Institute of Technology
+  location: Atlanta, GA, USA
+  phd: true
+  website: "faculty.cc.gatech.edu/~rama/"
+  url: "https://faculty.cc.gatech.edu/~rama/"

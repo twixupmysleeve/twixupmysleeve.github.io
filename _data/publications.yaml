@@ -30,28 +30,3 @@
       archivePrefix={arXiv},
       primaryClass={cs.HC}
     }
-
-# - id: notebook
-#   title: "The Future of Notebook Programming Is Fluid"
-#   authors: 
-#     - Mary Beth Kery
-#     - Donghao Ren
-#     - Kanit Wongsuphasawat
-#     - Fred Hohman
-#     - Kayur Patel
-#   venue: "Extended Abstracts on ACM Human Factors in Computing Systems"
-#   venue-shorthand: CHI
-#   location: Honolulu, HI, USA
-#   year: 2020
-#   url: /papers/notebook
-#   pdf: /papers/20-notebook-chi.pdf
-#   type: poster
-#   bibtex: |-
-
-#     @inproceedings{kery2020future,
-#       title={The Future of Notebook Programming Is Fluid},
-#       author={Kery, Mary Beth and Ren, Donghao and Wongsuphasawat, Kanit and Hohman, Fred and Patel, Kayur},
-#       booktitle={Proceedings of the 2020 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
-#       publisher={ACM},
-#       year={2020}
-#     }
