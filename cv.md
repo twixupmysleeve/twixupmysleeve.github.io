@@ -105,7 +105,7 @@ My interests encompass the fields of <b><span class="cv-vis">human-computer inte
 
 <!-- ### All Publications -->
 
-<!-- {% assign selectedBoolForBibtex = false %} -->
+{% assign selectedBoolForBibtex = false %}
 
 <!-- ### Journal
 
