@@ -137,7 +137,7 @@ My interests encompass the fields of <b><span class="cv-vis">human-computer inte
 
 <!-- ### Poster -->
 
-{% assign poster = site.categories.papers | where: 'type', "poster" %}
+{% assign poster = site.categories.papers%}
 {% for pub in poster %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
